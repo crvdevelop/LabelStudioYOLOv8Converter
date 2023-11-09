@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ls-yolo-converter"
+version = "0.1.0"
+description = ""
+authors = ["antoshayastreb <nedanon@outlook.com>"]
+readme = "README.md"
+packages = [{include = "ls_yolo_converter"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pillow = "^10.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
